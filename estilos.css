@@ -1,0 +1,144 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+#contenedorprincipal{
+
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+#login{
+    width: 320px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto;
+  
+
+}
+
+#contenedorprincipal img{
+    width: 140px;
+    
+} 
+
+
+.email {
+   width: 100%;
+   margin-bottom: none;
+    
+}
+
+.email p{
+
+font-size: var(--md);
+font-weight: bold;
+margin-bottom: 5px;
+padding-left: 5px;
+
+}
+
+.email input{
+   border: none;
+   background-color: var(--text-input-field);
+   width: 100%;
+   height: 40px;
+   font-size: var(--md);
+   padding-left: 10px;
+   border-radius: 10px;
+   
+}
+
+
+.password {
+    width: 100%;
+    margin-top: none;
+     
+ }
+ 
+ .password p{
+ 
+ font-size: var(--md);
+ font-weight: bold;
+ margin-bottom: 5px;
+ padding-left: 5px;
+ 
+ }
+ 
+ .password input{
+    border: none;
+    background-color: var(--text-input-field);
+    width: 100%;
+    height: 40px;
+    font-size: var(--md);
+    padding-left: 10px;
+    border-radius: 10px;
+    
+ }
+
+ #buttonlogin{
+    width: 100%;
+    background-color: var(--hospital-green);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-size: var(--md);
+    color: var(--text-input-field);
+    font-weight: bold;
+    cursor: pointer;
+
+ }
+
+ #forgot{
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-size: var(--sm);
+ }
+
+ #forgot:hover{
+    color: var(--black);
+    border: 1px solid var(--hospital-green);
+    border-radius: 5px;
+ }
+ 
+#buttonsingup{
+    width: 100%;
+    background-color: var(--white);
+    border: 1px solid var(--hospital-green);
+    border-radius: 5px;
+    height: 40px;
+    font-size: var(--md);
+    color: var(--hospital-green);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#buttonsingup:hover{
+  
+    color: var(--black);
+
+}
+
+#buttonlogin:hover{
+    
+     color: var(--black);
+ }
+
